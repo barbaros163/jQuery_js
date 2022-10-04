@@ -31,10 +31,7 @@ $(window).on("load", () => {
 
 $(document).ready(() => {
   console.log("DOMContentLoaded");
-  localStorage.setItem(
-    "apiKey",
-    EncryptStringAES("36444bdf2683f4ab300a7a080a87653d")
-  );
+  localStorage.setItem("apiKey", EncryptStringAES(""));
 });
 
 // formJquery.on("submit", (e)=>{
